@@ -114,7 +114,7 @@ export default function App() {
             </nav>
 
             <Switch>
-            <Redirect exact from="/" to="home" />
+            <Redirect exact from="/" to="/home" />
               <Route exact path="/home">
                 <Home />
               </Route>

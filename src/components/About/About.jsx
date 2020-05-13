@@ -31,10 +31,10 @@ const About = () => {
             <div className="about_box">
                 <h2>ABOUT ME</h2>
                 <p>Hi ! i'm a <strong>Junior Front End Developer</strong>,
-                    currently working at <a href="www.ekino.com" target="_blank" rel="noopener noreferrer" onMouseOver={(e) => handleHover(e)} onMouseOut={(e) => handleOut(e)}>ekino.</a></p>
+                    currently working at <a href="https://www.ekino.com" target="_blank" rel="noopener noreferrer" onMouseOver={(e) => handleHover(e)} onMouseOut={(e) => handleOut(e)}>ekino.</a></p>
                     <p>Passionate with new technologies and art. 
                     I love to learn and create with others, 
-                    that's why I currently apply for <strong>interactive developer's</strong> Degree at <a href="about_blank:gobelins.fr" onMouseOver={(e) => handleHover(e)} onMouseOut={(e) => handleOut(e)}>Gobelins</a> !</p>
+                    that's why I currently apply for <strong>interactive developer's</strong> Degree at <a href="https://www.gobelins.fr" target="_blank" rel="noopener noreferrer" onMouseOver={(e) => handleHover(e)} onMouseOut={(e) => handleOut(e)}>Gobelins</a> !</p>
             </div>
             <div className="skills_box">
                 <h2>SKILLS</h2>

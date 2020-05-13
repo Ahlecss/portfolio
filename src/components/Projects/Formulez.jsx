@@ -46,11 +46,11 @@ const Formulez = () => {
             </div>
 
             <div className="project_wrapper-menu">
-                <a href="/experiments" className="project_wrapper-menu_prev">
+                <a href="/projects/inr" className="project_wrapper-menu_prev">
                     <h3>Précédent</h3><br/>
                     <h2>INR</h2>
                 </a>
-                <a href="ecoapp" className="project_wrapper-menu_next">
+                <a href="/projects/ecoapp" className="project_wrapper-menu_next">
                     <h3>Suivant</h3><br/>
                     <h2>Ecoapp</h2>
                 </a>

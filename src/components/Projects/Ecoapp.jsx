@@ -56,11 +56,11 @@ const Ecoapp = () => {
             </div>
 
             <div className="project_wrapper-menu">
-                <a href="experiments" className="project_wrapper-menu_prev">
+                <a href="/projects/formulez" className="project_wrapper-menu_prev">
                     <h3>Précédent</h3><br/>
                     <h2>Expériments</h2>
                 </a>
-                <a href="inr" className="project_wrapper-menu_next">
+                <a href="/projects/kidz" className="project_wrapper-menu_next">
                     <h3>Suivant</h3><br/>
                     <h2>INR</h2>
                 </a>

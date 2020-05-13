@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink
+  NavLink,
+  Redirect
 } from "react-router-dom";
 
 import './MobileMenu.scss'
@@ -74,6 +75,7 @@ const MobileMenu = () => {
           }
 
           <Switch>
+          <Redirect exact from="/" to="/home" />
             <Route exact path="/home">
               <Home />
             </Route>

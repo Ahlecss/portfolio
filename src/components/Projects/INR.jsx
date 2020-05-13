@@ -49,11 +49,11 @@ const INR = () => {
             </div>
 
             <div className="project_wrapper-menu">
-                <a href="agenceleaf" className="project_wrapper-menu_prev">
+                <a href="/projects/agenceleaf" className="project_wrapper-menu_prev">
                     <h3>Précédent</h3><br/>
                     <h2>Agence Leaf</h2>
                 </a>
-                <a href="formulez" className="project_wrapper-menu_next">
+                <a href="/projects/formulez" className="project_wrapper-menu_next">
                     <h3>Suivant</h3><br/>
                     <h2>Formulez</h2>
                 </a>
