@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="28.5" viewBox="0 0 29 28.5">
+  <g id="Composant_1_1" data-name="Composant 1 – 1" transform="translate(0 1.5)">
+    <line id="Ligne_4" data-name="Ligne 4" x2="21" transform="translate(14.5) rotate(90)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Ligne_7" data-name="Ligne 7" x2="29" transform="translate(0 24.5)" fill="none" stroke="#fff" stroke-width="5"/>
+    <line id="Ligne_5" data-name="Ligne 5" y1="6" x2="8" transform="translate(15 14.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+    <line id="Ligne_6" data-name="Ligne 6" x2="8" y2="6" transform="translate(6 14.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
