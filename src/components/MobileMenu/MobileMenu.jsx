@@ -13,6 +13,12 @@ import About from '../About/About.jsx';
 import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects';
 import AgenceLeaf from '../Projects/AgenceLeaf';
+import INR from '../Projects/INR';
+import Formulez from '../Projects/Formulez';
+import Ecoapp from '../Projects/Ecoapp';
+import Kidz from '../Projects/Ecoapp';
+import Nexity from '../Projects/Nexity';
+import Experiments from '../Projects/Experiments';
 
 const MobileMenu = () => {
 
@@ -40,7 +46,7 @@ const MobileMenu = () => {
       <div className='navigation_overlay' id='nav'></div>
       <Router>
         <div className="website_wrapper">
-        <div className='stroke-menu-icon' onClick={() => setBurgerOpen(!burgerOpen)}>
+          <div className='stroke-menu-icon' onClick={() => setBurgerOpen(!burgerOpen)}>
             <div className='burger-icon1'></div>
             <div className='burger-icon2'></div>
           </div>
@@ -82,6 +88,24 @@ const MobileMenu = () => {
             </Route>
             <Route exact path="/projects/agenceleaf">
               <AgenceLeaf />
+            </Route>
+            <Route exact path="/projects/inr">
+              <INR />
+            </Route>
+            <Route exact path="/projects/formulez">
+              <Formulez />
+            </Route>
+            <Route exact path="/projects/ecoapp">
+              <Ecoapp />
+            </Route>
+            <Route exact path="/projects/kidz">
+              <Kidz />
+            </Route>
+            <Route exact path="/projects/nexity">
+              <Nexity />
+            </Route>
+            <Route exact path="/projects/experiments">
+              <Experiments />
             </Route>
           </Switch>
         </div>

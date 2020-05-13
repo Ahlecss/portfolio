@@ -3,7 +3,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  NavLink
+  NavLink,
+  Redirect
 } from "react-router-dom";
 
 import './styles/styles.scss';
@@ -113,6 +114,7 @@ export default function App() {
             </nav>
 
             <Switch>
+            <Redirect exact from="/" to="home" />
               <Route exact path="/home">
                 <Home />
               </Route>

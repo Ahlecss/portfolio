@@ -27,6 +27,7 @@ html, body {
     transition: all 0.2s;
 
   }
+
   nav{
     display: flex;
     flex-direction: column;
@@ -69,6 +70,12 @@ html, body {
   .menu_list li:hover::before{
     left: 25%;
   }
+  
+  @media(max-width: 750px){
+  #cursor-stroke{
+    display: none;
+  }
+}
     
   .cursor-container{
     position: fixed;
