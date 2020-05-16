@@ -17,7 +17,8 @@
     align-items: center;
     font-size: 1.4rem;
     height: 60vh;
-    animation:zoom-in 1s;
+    animation: zoom-in 1s;
+    animation-timing-function: ease;
     z-index: 1;
     position: relative;
     width: 80vw;

@@ -33,10 +33,12 @@ html{
 		height: 40vh;
 		z-index: 1;
 		margin-top: 5vh;
-		animation-name: zoom-in;
+		animation-name: fadeIn;
 		animation-iteration-count: 1;
-		animation-timing-function: linear;
-		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		animation-duration: .5s;
+		animation-delay: .5s;
+		animation-fill-mode: backwards;
 	}
 
 	.btn_wrapper{
@@ -67,10 +69,12 @@ html{
 		color: #565656;
 		font-family: "Work";
 		font-size: 4rem;
-		animation-name: fadeInOpacity;
+		animation-name: slideTop;
 		animation-iteration-count: 1;
-		animation-timing-function: linear;
-		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		animation-delay: .5s;
+		animation-fill-mode: backwards;
+		animation-duration: .5s;
 
 		span{
 			color: #FED04F;
@@ -79,10 +83,12 @@ html{
 	h2{
 		color: #FED04F;
 		font-size: 2.2rem;
-		animation-name: fadeInOpacity;
+		animation-name: slideTop;
 		animation-iteration-count: 1;
-		animation-timing-function: linear;
-		animation-duration: 1s;
+		animation-timing-function: ease-in-out;
+		animation-duration: .5s;
+		animation-delay: .5s;
+		animation-fill-mode: backwards;
 	}
 
 
@@ -98,10 +104,12 @@ html{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	animation-name: zoom-in;
+	animation-name: slideTop;
 	animation-iteration-count: 1;
-	animation-timing-function: linear;
-	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-duration: .5s;
+	animation-delay: 1.5s;
+	animation-fill-mode: backwards;
 }
 
 .btn_cv{
@@ -212,9 +220,11 @@ html{
 	right: 15vw;
 	z-index: 1;
 	margin-top: 5vh;
-	animation-name: zoom-in;
+	animation-name: fadeIn;
 	animation-iteration-count: 1;
-	animation-timing-function: linear;
-	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+	animation-duration: .5s;
 }
 }

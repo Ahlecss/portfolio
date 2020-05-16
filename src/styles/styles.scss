@@ -33,6 +33,10 @@ html, body {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-end;
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1s;
   }
   .menu_list{
     margin-right: 10%;

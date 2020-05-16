@@ -76,7 +76,7 @@ export default function App() {
   }
 
   const styleBar1 = {
-    transform: 'translate(' + x / 10 + 'px,' + y / 10 + 'px) rotate(-25deg)'
+    transform: `translate(${x / 10}px, ${y / 10}px) rotate(-25deg)`
   }
   const styleBar2 = {
     transform: 'translate(' + x / 8 + 'px,' + y / 8 + 'px) rotate(-25deg)'

@@ -29,7 +29,9 @@ const About = () => {
         <div className="about_wrapper" onScroll={() => handleScroll()}>
         
             <div className="about_box">
+                <div className='mask'>
                 <h2>ABOUT ME</h2>
+                </div>
                 <p>Hi ! i'm a <strong>Junior Front End Developer</strong>,
                     currently working at <a href="https://www.ekino.com" target="_blank" rel="noopener noreferrer" onMouseOver={(e) => handleHover(e)} onMouseOut={(e) => handleOut(e)}>ekino.</a></p>
                     <p>Passionate with new technologies and art. 

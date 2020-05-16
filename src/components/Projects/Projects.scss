@@ -1,10 +1,19 @@
 @import '../../styles/animations.scss';
 
 .projects-transition-appear{
-  transition: transform 300ms;
-  transform: translateY(-100%);
+  opacity: 0;
 }
-
+.projects-transition-appear-active{
+  transition: opacity 500ms;
+  opacity: 1;
+}
+.projects-transition-exit{
+  opacity: 1;
+}
+.projects-transition-exit-active{
+  transition: opacity 500ms;
+  opacity: 0;
+}
 
 @media(max-width: 750px){
   .projects_box{

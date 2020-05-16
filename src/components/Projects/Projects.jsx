@@ -22,7 +22,8 @@ const Projects = () => {
         <CSSTransition
         appear
         in
-        classNames='projects-transition-appear'
+        exit
+        classNames='projects-transition'
         timeout={500}>
         <div className='projects_box'>
             <ul className='project_list'>
