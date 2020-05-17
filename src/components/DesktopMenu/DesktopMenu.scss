@@ -20,7 +20,7 @@ nav{
   .menu_list li{
     cursor: pointer;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 500;
     list-style: none;
     position: relative;
     z-index: 0;
@@ -52,7 +52,7 @@ nav{
   }
 
   .is-active{
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .is-active::before{
