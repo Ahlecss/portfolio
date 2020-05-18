@@ -17,8 +17,8 @@ const Home = () => {
                         <h1>ALEXIS <span>SEJOURNE</span></h1>
                     </div>
                     <div className='btn_wrapper'>
-                        <a className="btn_cv" href={CV} target='_blank' rel="noopener noreferrer">Téléchargez mon CV !<img src={download} alt="download" /></a>
-                        <a className="btn_learn" href='/about'>En apprendre plus<img src={arrow} alt="scroll" /></a>
+                        <a className="btn_cv" href={CV} target='_blank' rel="noopener noreferrer">Download resume !<img src={download} alt="download" /></a>
+                        <a className="btn_learn" href='/about'>Learn more<img src={arrow} alt="scroll" /></a>
                     </div>
                 </div>
                 <div><img src={pic} alt="Alexis Sejourne's profile" className='profilepic' /></div>
