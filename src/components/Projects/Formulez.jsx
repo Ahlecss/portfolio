@@ -20,7 +20,7 @@ const Formulez = () => {
                         <h4>2019</h4>
                     </div>
                     <p>Site conséquent côté Front End, permettant la création de formulaires personnalisables.</p>
-                    <p>Développement réalisé lors d'un souhaite stage.</p>
+                    <p>Développement réalisé lors d'un chouette stage.</p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ const Formulez = () => {
                 </div>
                 <div className='resume2'>
                     <h3>Formulez un besoin</h3>
-                    <p>La polyvalence de l'équipe et le partage des tâches m'a permis d'adopter la position de développeur et de designer.</p>
+                    <p>La grande pédagogie de l'équipe fut également la raison de mon amélioration technique.</p>
                 </div>
             </div>
             
