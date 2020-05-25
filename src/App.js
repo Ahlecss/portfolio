@@ -24,7 +24,7 @@ import MobileMenu from "./components/MobileMenu/MobileMenu.jsx";
 
 export default function App() {
 
-  document.title = 'Alexis Sejourné';
+  document.title = 'Alexis Sejourné - Front end Developer ';
 
   const [x, setX] = useState(null);
   const [y, setY] = useState(null);
@@ -37,8 +37,9 @@ export default function App() {
   }
 
   const onMouseOver = e => {
+    console.log(e.target.className);
     console.log(e.target.tagName);
-    if (e.target.tagName === 'A') {
+    if (e.target.tagName === 'A' || e.target.className === ("project_wrapper-menu_prev" || "project_wrapper-menu_next")) {
       const cursor = document.getElementById('cursor');
       cursor.style.transform = 'scale(1)';
     }

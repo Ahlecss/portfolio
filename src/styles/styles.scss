@@ -76,8 +76,16 @@ html, body {
   .menu_list li:hover::before{
     left: 25%;
   }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  html, body, .cursor-container {
+    scrollbar-width: none;
+  }
   
   @media(max-width: 750px){
+
   #cursor-stroke{
     display: none;
   }

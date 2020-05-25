@@ -79,10 +79,14 @@
 }
 
 @media (min-width: 750px) {
+    .about_wrapper::-webkit-scrollbar {
+        width: 10em;
+      }
     .about_wrapper{
         margin-top: 10vh;
         width: 80vw;
         height: 125vh;
+        
     
         h2{
         }
