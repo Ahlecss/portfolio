@@ -24,7 +24,7 @@ import MobileMenu from "./components/MobileMenu/MobileMenu.jsx";
 
 export default function App() {
 
-  document.title = 'Alexis Sejourné';
+  document.title = 'Alexis Sejourné - Front end Developer ';
 
   const [x, setX] = useState(null);
   const [y, setY] = useState(null);
